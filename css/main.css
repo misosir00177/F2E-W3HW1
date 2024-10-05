@@ -44,7 +44,6 @@ h1 {
 h2 {
     font-size: 16px;
     line-height: 150%;
-    color: #EDF2C5;
 }
 
 a {
@@ -87,15 +86,19 @@ a {
     border-radius: 3px;
     padding: 4px 8px;
 }
+
+.btn-join:hover, .btn-login:hover{
+    color: #F7FBDA;
+    background-color: #778A50;
+}
+
 /*Navigation Styling*/
 .header-nav-div {
     border-radius: 3px;
     background-color: #778A50;
-    color: #EDF2C5;
 }
 
-
-.header-nav-list {
+.header-nav{
     display: flex;
     height: 44px;
     width: 1120px;
@@ -105,20 +108,19 @@ a {
     /*margin-top: 24px;*/
 }
 
-.header-nav-list ul {
+.header-nav a{
     padding: 0px;
     margin: 0px;
-}
-
-.header-nav-list li {
     align-items: center;
     margin-right: 60px;
+    color: #EDF2C5;
 }
 
-.header-nav-list li:hover +h2{
+.header-nav a:hover {
     background-color: #EDF2C5;
-    color: #778A50;
+    color: #788b50;
 }
+
 
 
 
@@ -141,6 +143,7 @@ a {
 }
 .box-veg-header, .box-contact-header{
     background-color: #778A50;
+    color: #EDF2C5;
     height: 45px;
     width: 528px;
     border-radius: 3px;
