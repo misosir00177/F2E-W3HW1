@@ -156,16 +156,29 @@ a {
 
 .box-veg-img{
     display: flex;
+    
     margin-top: 16px;
 }
 
-.box-veg-img img{
+.div-carrot, .div-corn, .div-peppers{
     height: 140px;
     width: 165px;
+    overflow: hidden;
 }
 
-.img-carrot, .img-corn{
+.div-carrot, .div-corn{
     margin-right: 16px;
+}
+
+.box-veg-img img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+    transition: transform 0.5s;
+}
+
+.img-carrot:hover, .img-corn:hover, .img-pepper:hover{
+    transform: scale(1.5);
 }
 
 .contact-content {
