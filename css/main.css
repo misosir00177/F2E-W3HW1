@@ -33,7 +33,7 @@ body {
     width: 100%;
     max-width: 1120px;
     }
-
+    
 /*general tag styling*/
 h1 {
     font-weight: 900;
@@ -61,6 +61,11 @@ a {
     align-items: center;
     height: 62px;
     width: 1120px;
+    margin-bottom: 10px;
+}
+
+.header-title{
+    padding-bottom: 2px;
 }
 
 .header-accounts{
@@ -116,7 +121,7 @@ a {
     color: #EDF2C5;
 }
 
-.header-nav a:hover {
+.header-nav a:hover{
     background-color: #EDF2C5;
     color: #788b50;
 }
@@ -127,6 +132,7 @@ a {
 /*Content Area Styling*/
 .img-pumpkin{
     margin-top: 16px;
+    object-fit: cover;
     height: 448px;
     width: 1120px;
 }
@@ -156,7 +162,6 @@ a {
 
 .box-veg-img{
     display: flex;
-    
     margin-top: 16px;
 }
 
